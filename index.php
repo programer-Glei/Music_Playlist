@@ -12,5 +12,9 @@
 </head>
 <body>
     
+
+
+<!-- custom js file link -->
+<script src="java/java.js"></script>
 </body>
 </html>

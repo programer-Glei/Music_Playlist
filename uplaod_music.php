@@ -1,3 +1,9 @@
+<?php
+
+include 'connect.php';
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -11,6 +17,11 @@
     <title>Upload Music</title>
 </head>
 <body>
-    
+    <section class="form-container">
+        <h3 class="heading">Fazer upload de música</h3>
+        <form action="" method="POST" enctype="multipart/form-data">
+            <input type="text" class="box" name="name" placeholder="Digite o nome da música" required maxlength="100">
+        </form>
+    </section>
 </body>
 </html>

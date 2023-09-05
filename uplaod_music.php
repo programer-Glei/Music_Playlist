@@ -21,6 +21,11 @@ include 'connect.php';
         <h3 class="heading">Fazer upload de música</h3>
         <form action="" method="POST" enctype="multipart/form-data">
             <input type="text" class="box" name="name" placeholder="Digite o nome da música" required maxlength="100">
+            <input type="text" class="box" name="artist" placeholder="Digite o nome da artista" required maxlength="100">
+            <input type="file" name="music" id="" class="box" required accept="audio/*">
+            <input type="file" name="album" id="" class="box" required accept="image/*">
+            <input type="submit" value="Fazer upload de música" class="btn">
+            <a href="index.php" class="option-btn">Voltar</a>
         </form>
     </section>
 </body>

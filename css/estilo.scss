@@ -16,3 +16,18 @@ $--border:0.2rem solid $--black;
     outline: none; border: none;
     text-decoration: none;
 }
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: $--light-bg;
+}
+
+section{
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}

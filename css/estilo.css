@@ -24,4 +24,17 @@ section {
   margin: 0 auto;
   max-width: 1200px;
 }
+
+.heading {
+  text-align: center;
+  font-size: 3rem;
+  color: #2c3e50;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+
+.btn, .option-btn {
+  display: block;
+  width: 100%;
+}
 /*# sourceMappingURL=estilo.css.map */

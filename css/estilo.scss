@@ -43,4 +43,10 @@ section{
 .btn,.option-btn{
     display: block;
     width: 100%;
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+    cursor: pointer;
+    font-size: 1.8rem;
+    border-radius: 0.5rem;
+    color: $--white;
 }

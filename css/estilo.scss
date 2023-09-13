@@ -50,3 +50,15 @@ section{
     border-radius: 0.5rem;
     color: $--white;
 }
+
+.btn{
+    background-color: $--main-color;
+
+    &:hover{
+        background-color: $--black;
+    }
+}
+
+.option-btn{
+    background-color: $--black;
+}

@@ -49,6 +49,7 @@ section{
     font-size: 1.8rem;
     border-radius: 0.5rem;
     color: $--white;
+    text-align: center;
 }
 
 .btn{
@@ -61,4 +62,8 @@ section{
 
 .option-btn{
     background-color: $--black;
+
+    &:hover{
+        background-color: $--main-color;
+    }
 }

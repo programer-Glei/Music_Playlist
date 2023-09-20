@@ -60,4 +60,13 @@ section {
 .option-btn:hover {
   background-color: #8e44ad;
 }
+
+.form-container form {
+  margin: 0 auto;
+  max-width: 50rem;
+  border: 0.2rem solid #2c3e50;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
 /*# sourceMappingURL=estilo.css.map */

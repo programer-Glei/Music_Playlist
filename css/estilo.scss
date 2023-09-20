@@ -67,3 +67,13 @@ section{
         background-color: $--main-color;
     }
 }
+
+.form-container{
+    form{
+        margin: 0 auto;
+        max-width: 50rem;
+        border: $--border;
+        background-color: $--white;
+        box-shadow: $--box-shadow;
+    }
+}

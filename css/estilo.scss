@@ -75,5 +75,13 @@ section{
         border: $--border;
         background-color: $--white;
         box-shadow: $--box-shadow;
+        padding: 1.5rem;
+        padding-top: 1rem;
+
+        p{
+            padding-top: 1rem;
+            font-size: 1.8rem;
+            color: $--light-color;
+        }
     }
 }

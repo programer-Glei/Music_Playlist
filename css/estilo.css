@@ -68,5 +68,13 @@ section {
   background-color: #fff;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  padding-top: 1rem;
+}
+
+.form-container form p {
+  padding-top: 1rem;
+  font-size: 1.8rem;
+  color: #666;
 }
 /*# sourceMappingURL=estilo.css.map */

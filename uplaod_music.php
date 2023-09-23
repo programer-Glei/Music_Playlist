@@ -2,6 +2,22 @@
 header('Content-Type: text/html; charset=utf-8');
 include 'connect.php';
 
+if(isset($_POST['submit'])){
+
+    $name = $_POST['name'];
+    $name = filter_var($name, FILTER_SANITIZE_STRING);
+    $artist = $_POST['artist'];
+
+    if(!isset($artist)){
+
+        $artist = '';
+    }
+
+    $album = $_FILES['album']['name'];
+    $album = filter_var($album, FILTER_SANITIZE_STRING);
+
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -28,7 +44,7 @@ include 'connect.php';
             <input type="file" name="music" id="" class="box" required accept="audio/*">
             <p>Selecione album</p>
             <input type="file" name="album" id="" class="box" required accept="image/*">
-            <input type="submit" value="Fazer upload de música" class="btn">
+            <input type="submit" value="Fazer upload de música" class="btn" name="submit">
             <a href="index.php" class="option-btn">Voltar</a>
         </form>
     </section>

@@ -82,6 +82,21 @@ section{
             padding-top: 1rem;
             font-size: 1.8rem;
             color: $--light-color;
+
+            span{
+                color: $--red;
+            }
+        }
+
+        .box{
+            width: 100%;
+            border-radius: 0.5rem;
+            background-color: $--light-bg;
+            padding: 1.4rem;
+            font-size: 1.8rem;
+            color: $--black;
+            margin: 1rem 0;
+            border: $--border;
         }
     }
 }

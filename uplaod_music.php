@@ -17,11 +17,11 @@ if(isset($_POST['submit'])){
     $album = filter_var($album, FILTER_SANITIZE_STRING);
     $album_size = $_FILES['album']['size'];
     $album_tmp_name = $_FILES['album']['tmp_name'];
-    $album_folder = 'uploaded_album' .$album;
+    $album_folder = 'uploaded_album'.$album;
 
     if(isset($album)){
         if($album_size > 2000000){
-            $message[] = 'o tamanho do álbum é muito grande!';
+            $message[] = 'O tamanho do álbum é muito grande!';
         }else{
             move_uploaded_file($album_tmp_name, $album_folder);
         }
@@ -29,6 +29,17 @@ if(isset($_POST['submit'])){
         $album = '';
     }
 
+    $music = $_FILES['music']['name'];
+    $music = filter_var($music, FILTER_SANITIZE_STRING);
+    $music_size = $_FILES['music']['size'];
+    $music_tmp_name = $_FILES['music']['tmp_name'];
+    $music_folder = 'uplaoded_music'.$music;
+
+    if($music_size > 100000000){
+        $message[] = 'O tamanho da música é muito grande!';
+    }else{
+
+    }
 }
 
 ?>

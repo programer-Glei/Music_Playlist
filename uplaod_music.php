@@ -60,6 +60,15 @@ if(isset($_POST['submit'])){
     <title>Upload Music</title>
 </head>
 <body>
+
+    <?php
+        if(isset($message)){
+            foreach($message as $message){
+                
+            }
+        }
+    ?>
+
     <section class="form-container">
         <h3 class="heading">Fazer upload de música</h3>
         <form action="" method="POST" enctype="multipart/form-data">

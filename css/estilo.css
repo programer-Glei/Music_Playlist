@@ -54,6 +54,33 @@ section {
       -ms-flex-pack: justify;
           justify-content: space-between;
   gap: 1.5rem;
+  z-index: 1000;
+  -webkit-animation: fadeIn 0.4s cubic-bezier(0.3, 1.41, 0.4, 1.46);
+          animation: fadeIn 0.4s cubic-bezier(0.3, 1.41, 0.4, 1.46);
+}
+
+.message span {
+  font-size: 2rem;
+  color: #2c3e50;
+}
+
+.message i {
+  cursor: pointer;
+  font-size: 2.5rem;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    -webkit-transform: scale(0.5) translateY(1rem);
+            transform: scale(0.5) translateY(1rem);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    -webkit-transform: scale(0.5) translateY(1rem);
+            transform: scale(0.5) translateY(1rem);
+  }
 }
 
 .btn, .option-btn {

@@ -38,7 +38,7 @@ if(isset($_POST['submit'])){
     if($music_size > 100000000){
         $message[] = 'O tamanho da música é muito grande!';
     }else{
-
+        $upload_music = $conn->prepare("INSERT INTO `songs`(name, artist, album, music) VALUES(?,?,?,?)");
     }
 }
 

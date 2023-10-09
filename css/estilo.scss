@@ -40,6 +40,21 @@ section{
     margin-bottom: 2rem;
 }
 
+.message{
+    position: sticky;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+    background-color: $--white;
+    border: $--border;
+    box-shadow: $--box-shadow;
+    padding: 1.5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
 .btn,.option-btn{
     display: block;
     width: 100%;

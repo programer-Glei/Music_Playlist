@@ -60,11 +60,14 @@ if(isset($_POST['submit'])){
     <title>Upload Music</title>
 </head>
 <body>
-
+    
     <?php
         if(isset($message)){
             foreach($message as $message){
-                
+                echo '<div class="message">
+                        <span>'.$message.'</span>
+                        <i class="fas fatimes" onclik="this.parentElement.remove()"></i>
+                    </div>';
             }
         }
     ?>

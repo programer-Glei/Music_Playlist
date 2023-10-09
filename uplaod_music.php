@@ -40,6 +40,8 @@ if(isset($_POST['submit'])){
     }else{
         $upload_music = $conn->prepare("INSERT INTO `songs`(name, artist, album, music) VALUES(?,?,?,?)");
         $upload_music->execute([$name, $artist, $album, $music]);
+        move_uploaded_file($music_tmp_name, $music_folder);
+        $message[] = 'Nova musica adicionada!';
     }
 }
 

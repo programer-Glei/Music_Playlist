@@ -1,3 +1,7 @@
+<?php
+    include 'connect.php';
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -11,7 +15,9 @@
     <title>Upload Music</title>
 </head>
 <body>
-    
+    <section class="paylist">
+        
+    </section>
 
 
 <!-- custom js file link -->

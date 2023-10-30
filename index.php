@@ -18,7 +18,18 @@
     <section class="paylist">
         <h3 class="heading">Lista de reprodução de música</h3>
         <div class="box-container">
-            
+            <?php
+                $select_songs = $conn->prepare("SELECT * FROM `songs`");
+                $select_songs->execute();
+                if($select_songs->rowCount() > 0){
+                    while($fetch_songs = $select_songs->fetch(PDO::FETCH_ASSOC)){
+                        
+                    }
+                }
+            ?>
+            <div class="box">
+                <a href="uplaod_music.php" class="btn">Fazer upload de música</a>
+            </div>
         </div>
     </section>
 

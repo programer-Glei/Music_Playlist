@@ -24,7 +24,13 @@
                 if($select_songs->rowCount() > 0){
                     while($fetch_songs = $select_songs->fetch(PDO::FETCH_ASSOC)){
                         
-                    }
+               
+            ?>
+            <div class="box">
+                <?php if($fetch_songs['album'] != '')  ?>
+            </div>
+            <?php
+                 }
                 }
             ?>
             <div class="box">

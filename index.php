@@ -30,6 +30,8 @@
                 <?php }else{?>
                     <img src="images/disc.png" alt="" class="album">
                 <?php } ?>
+                <div class="name"><?= $fetch_songs['name']; ?></div>
+                <div class="artist"><?= $fetch_songs['artist']; ?></div>
             </div>
             <?php
                  }

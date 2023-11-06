@@ -23,11 +23,13 @@
                 $select_songs->execute();
                 if($select_songs->rowCount() > 0){
                     while($fetch_songs = $select_songs->fetch(PDO::FETCH_ASSOC)){
-                        
-               
             ?>
             <div class="box">
-                <?php if($fetch_songs['album'] != '')  ?>
+                <?php if($fetch_songs['album'] != ''){?>
+                    <img src="uploaded_album/<?= $fetch_songs['album']; ?>" alt="" class="album">
+                <?php }else{?>
+                    <img src="images/disc.png" alt="" class="album">
+                <?php } ?>
             </div>
             <?php
                  }

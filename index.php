@@ -33,7 +33,8 @@
                 <div class="name"><?= $fetch_songs['name']; ?></div>
                 <div class="artist"><?= $fetch_songs['artist']; ?></div>
                 <div class="flex">
-                    <div class="play"><i class="fas fa-play" data-src="uploaded_album/<?= $fetch_songs['album']; ?>"></i><span>Play</span></div>
+                    <div class="play"><i class="fas fa-play" data-src="uplaoded_music/<?= $fetch_songs['music']; ?>"></i><span>Play</span></div>
+                    <a href="uplaoded_music/<?= $fetch_songs['music']; ?>" download><i class="fas fa-download"></i><span>Download</span></a>
                 </div>
             </div>
             <?php

@@ -146,5 +146,14 @@ section{
         grid-template-columns: repeat(auto-fit, 27rem);
         gap: 1.5rem;
         align-items: flex-start;
+        justify-content: center;
+
+        .box{
+            border: $--border;
+            border-radius: 0.5rem;
+            background-color: $--white;
+            box-shadow: $--box-shadow;
+            text-align: center;
+        }
     }
 }

@@ -139,3 +139,12 @@ section{
         }
     }
 }
+
+.paylist{
+    .box-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 27rem);
+        gap: 1.5rem;
+        align-items: flex-start;
+    }
+}

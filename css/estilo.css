@@ -148,4 +148,15 @@ section {
   margin: 1rem 0;
   border: 0.2rem solid #2c3e50;
 }
+
+.paylist .box-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (27rem)[auto-fit];
+      grid-template-columns: repeat(auto-fit, 27rem);
+  gap: 1.5rem;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
 /*# sourceMappingURL=estilo.css.map */

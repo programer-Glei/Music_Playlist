@@ -154,6 +154,11 @@ section{
             background-color: $--white;
             box-shadow: $--box-shadow;
             text-align: center;
+
+            .option-btn{
+                margin-top: 0;
+            }
         }
     }
 }
+

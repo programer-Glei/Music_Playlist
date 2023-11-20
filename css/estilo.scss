@@ -175,8 +175,20 @@ section{
             .artist{
                 margin: 0.5rem 0;
                 font-size: 1.8rem;
+                color: $--main-color;
+            }
+
+            .flex{
+                margin-top: 1.5rem;
+                border-top: $--border;
+                display: flex;
+
+                & > *{
+                    flex: 1;
+                    padding: 1.5rem;
+                    font-size: 1.8rem;
+                }
             }
         }
     }
 }
-

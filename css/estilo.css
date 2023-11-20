@@ -193,5 +193,22 @@ section {
 .paylist .box-container .box .artist {
   margin: 0.5rem 0;
   font-size: 1.8rem;
+  color: #8e44ad;
+}
+
+.paylist .box-container .box .flex {
+  margin-top: 1.5rem;
+  border-top: 0.2rem solid #2c3e50;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.paylist .box-container .box .flex > * {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 1.5rem;
+  font-size: 1.8rem;
 }
 /*# sourceMappingURL=estilo.css.map */

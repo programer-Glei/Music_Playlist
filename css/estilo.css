@@ -171,4 +171,27 @@ section {
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   text-align: center;
 }
+
+.paylist .box-container .box .option-btn {
+  margin-top: 0;
+}
+
+.paylist .box-container .box .album {
+  margin: 2rem;
+  border-radius: 50%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 15rem;
+  width: 15rem;
+}
+
+.paylist .box-container .box .name {
+  font-size: 2rem;
+  color: #2c3e50;
+}
+
+.paylist .box-container .box .artist {
+  margin: 0.5rem 0;
+  font-size: 1.8rem;
+}
 /*# sourceMappingURL=estilo.css.map */

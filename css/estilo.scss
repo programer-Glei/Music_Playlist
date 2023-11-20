@@ -158,6 +158,24 @@ section{
             .option-btn{
                 margin-top: 0;
             }
+
+            .album{
+                margin: 2rem;
+                border-radius: 50%;
+                object-fit: contain;
+                height: 15rem;
+                width: 15rem;
+            }
+
+            .name{
+                font-size: 2rem;
+                color: $--black;
+            }
+
+            .artist{
+                margin: 0.5rem 0;
+                font-size: 1.8rem;
+            }
         }
     }
 }

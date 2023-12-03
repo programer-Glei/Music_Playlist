@@ -211,4 +211,9 @@ section {
   padding: 1.5rem;
   font-size: 1.8rem;
 }
+
+.paylist .box-container .box .flex i {
+  margin-right: 0.8rem;
+  color: #8e44ad;
+}
 /*# sourceMappingURL=estilo.css.map */

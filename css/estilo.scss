@@ -143,7 +143,7 @@ section{
 .paylist{
     .box-container{
         display: grid;
-        grid-template-columns: repeat(auto-fit, 27rem);
+        grid-template-columns: repeat(auto-fit, 28rem);
         gap: 1.5rem;
         align-items: flex-start;
         justify-content: center;
@@ -154,10 +154,6 @@ section{
             background-color: $--white;
             box-shadow: $--box-shadow;
             text-align: center;
-
-            .option-btn{
-                margin-top: 0;
-            }
 
             .album{
                 margin: 2rem;
@@ -186,7 +182,11 @@ section{
                 & > *{
                     flex: 1;
                     padding: 1.5rem;
-                    font-size: 1.8rem;
+                    font-size: 1.6rem;
+                }
+
+                a{
+                    border-left: $--border;
                 }
 
                 i{
@@ -197,6 +197,15 @@ section{
                 span{
                     color: $--light-color;
                 }
+            }
+
+        }
+
+        .more-btn{
+            padding: 1.5rem;
+
+            .btn{
+                margin-top: 0;
             }
         }
     }

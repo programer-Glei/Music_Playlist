@@ -42,11 +42,16 @@
                  }
                 }
             ?>
-            <div class="box">
+            <div class="box more-btn">
                 <a href="uplaod_music.php" class="btn">Fazer upload de música</a>
             </div>
         </div>
     </section>
+
+    <div class="music-player">
+        <i class="fas fa-times" id="close"></i>
+        <div class="box"></div>
+    </div>
 
 
 <!-- custom js file link -->

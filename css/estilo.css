@@ -152,8 +152,8 @@ section {
 .paylist .box-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (27rem)[auto-fit];
-      grid-template-columns: repeat(auto-fit, 27rem);
+  -ms-grid-columns: (28rem)[auto-fit];
+      grid-template-columns: repeat(auto-fit, 28rem);
   gap: 1.5rem;
   -webkit-box-align: start;
       -ms-flex-align: start;
@@ -170,10 +170,6 @@ section {
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   text-align: center;
-}
-
-.paylist .box-container .box .option-btn {
-  margin-top: 0;
 }
 
 .paylist .box-container .box .album {
@@ -209,11 +205,27 @@ section {
       -ms-flex: 1;
           flex: 1;
   padding: 1.5rem;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
+}
+
+.paylist .box-container .box .flex a {
+  border-left: 0.2rem solid #2c3e50;
 }
 
 .paylist .box-container .box .flex i {
   margin-right: 0.8rem;
   color: #8e44ad;
+}
+
+.paylist .box-container .box .flex span {
+  color: #666;
+}
+
+.paylist .box-container .more-btn {
+  padding: 1.5rem;
+}
+
+.paylist .box-container .more-btn .btn {
+  margin-top: 0;
 }
 /*# sourceMappingURL=estilo.css.map */

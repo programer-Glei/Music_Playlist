@@ -50,7 +50,12 @@
 
     <div class="music-player">
         <i class="fas fa-times" id="close"></i>
-        <div class="box"></div>
+        <div class="box">
+            <img src="" alt="" class="album">
+            <div class="name"></div>
+            <div class="artist"></div>
+            <audio src="" class="music" controls></audio>
+        </div>
     </div>
 
 

@@ -223,5 +223,45 @@ section{
 
     .box{
         background-color: $--white;
+        border-radius: 0.5rem;
+        width: 40rem;
+        text-align: center;
+
+        .album{
+            margin: 2rem;
+            height: 15rem;
+            width: 15rem;
+            border-radius: 50%;
+            animation: beat 2s bezier(0.3,1.41,0.4,1.46) infinite;
+        }
+
+        .name{
+            font-size: 2rem;
+            color: $--black;
+        }
+
+        .artist{
+            margin: 0.5rem 0;
+            font-size: 1.8rem;
+            color: $--main-color;
+        }
+
+        .music{
+            border-top: $--border;
+            width: 100%;
+
+            &::-webkit-media-controls-enclosure{
+                background: none;
+                border-radius: 0;
+            }
+        }
+    }
+}
+
+@keyframes beat {
+    0%, 100%{
+        transform: scale(0.5);
+    }50%{
+        transform: scale(1);
     }
 }

@@ -251,5 +251,60 @@ section {
 
 .music-player .box {
   background-color: #fff;
+  border-radius: 0.5rem;
+  width: 40rem;
+  text-align: center;
+}
+
+.music-player .box .album {
+  margin: 2rem;
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  -webkit-animation: beat 2s bezier(0.3, 1.41, 0.4, 1.46) infinite;
+          animation: beat 2s bezier(0.3, 1.41, 0.4, 1.46) infinite;
+}
+
+.music-player .box .name {
+  font-size: 2rem;
+  color: #2c3e50;
+}
+
+.music-player .box .artist {
+  margin: 0.5rem 0;
+  font-size: 1.8rem;
+  color: #8e44ad;
+}
+
+.music-player .box .music {
+  border-top: 0.2rem solid #2c3e50;
+  width: 100%;
+}
+
+.music-player .box .music::-webkit-media-controls-enclosure {
+  background: none;
+  border-radius: 0;
+}
+
+@-webkit-keyframes beat {
+  0%, 100% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes beat {
+  0%, 100% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
 }
 /*# sourceMappingURL=estilo.css.map */

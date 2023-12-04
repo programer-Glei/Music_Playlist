@@ -13,6 +13,15 @@ playBtn.forEach(play =>{
         let src = play.getAttribute('data-src');
         let box = play.parentElement.parentElement;
         let album = box.querySelector('.album');
-        
+        let name = box.querySelector('.name');
+        let artist = box.querySelector('.artist');
+
+        musicAlbum.src = album.src;
+        musicName.innerHTML = name.innerHTML;
+        music.src = src;
+
+        music.play();
+
+        musicplayer.classList.add('active');
     }
 })

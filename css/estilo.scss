@@ -183,6 +183,7 @@ section{
                     flex: 1;
                     padding: 1.5rem;
                     font-size: 1.6rem;
+                    cursor: pointer;
                 }
 
                 a{
@@ -212,7 +213,7 @@ section{
 }
 
 .music-player{
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     padding: 2rem;
@@ -230,7 +231,7 @@ section{
         transition: 0.2s linear;
 
         &:hover{
-            transform: rotate(360deg);
+            transform: rotate(90deg);
         }
     }
 

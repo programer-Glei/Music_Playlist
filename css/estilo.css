@@ -249,6 +249,22 @@ section {
   z-index: 1000;
 }
 
+.music-player #close {
+  position: absolute;
+  top: 2rem;
+  right: 2.5rem;
+  cursor: pointer;
+  color: #fff;
+  font-size: 5rem;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+
+.music-player #close:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
 .music-player .box {
   background-color: #fff;
   border-radius: 0.5rem;

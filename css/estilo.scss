@@ -221,6 +221,19 @@ section{
     background-color: rgba(0,0,0,0.5);
     z-index: 1000;
 
+    #close{
+        position: absolute;
+        top: 2rem; right: 2.5rem;
+        cursor: pointer;
+        color: $--white;
+        font-size: 5rem;
+        transition: 0.2s linear;
+
+        &:hover{
+            transform: rotate(360deg);
+        }
+    }
+
     .box{
         background-color: $--white;
         border-radius: 0.5rem;

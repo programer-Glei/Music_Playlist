@@ -222,6 +222,10 @@ section{
     background-color: rgba(0,0,0,0.5);
     z-index: 1000;
 
+    &.active{
+        display: flex;
+    }
+
     #close{
         position: absolute;
         top: 2rem; right: 2.5rem;

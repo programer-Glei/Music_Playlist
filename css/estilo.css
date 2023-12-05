@@ -206,6 +206,7 @@ section {
           flex: 1;
   padding: 1.5rem;
   font-size: 1.6rem;
+  cursor: pointer;
 }
 
 .paylist .box-container .box .flex a {
@@ -245,6 +246,12 @@ section {
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 1000;
+}
+
+.music-player.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .music-player #close {
